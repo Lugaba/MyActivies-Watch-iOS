@@ -11,7 +11,48 @@
 		DF819C0229071BF500C47083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C0129071BF500C47083 /* ContentView.swift */; };
 		DF819C0429071BF600C47083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF819C0329071BF600C47083 /* Assets.xcassets */; };
 		DF819C0729071BF600C47083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF819C0629071BF600C47083 /* Preview Assets.xcassets */; };
+		DF819C1429071CE700C47083 /* MyActivitiesWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C1329071CE700C47083 /* MyActivitiesWatchApp.swift */; };
+		DF819C1829071CE900C47083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF819C1729071CE900C47083 /* Assets.xcassets */; };
+		DF819C1B29071CE900C47083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF819C1A29071CE900C47083 /* Preview Assets.xcassets */; };
+		DF819C2029071D8E00C47083 /* MyActivitiesWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DF819C1129071CE700C47083 /* MyActivitiesWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF819C2529071E3600C47083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C0129071BF500C47083 /* ContentView.swift */; };
+		DF819C2A29071EA700C47083 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C2929071EA700C47083 /* Activity.swift */; };
+		DF819C2B29071EA700C47083 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C2929071EA700C47083 /* Activity.swift */; };
+		DF819C2D29071F6C00C47083 /* ActivitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C2C29071F6C00C47083 /* ActivitiesViewModel.swift */; };
+		DF819C2E29071F6C00C47083 /* ActivitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C2C29071F6C00C47083 /* ActivitiesViewModel.swift */; };
+		DF819C30290720DD00C47083 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C2F290720DD00C47083 /* ActivityCell.swift */; };
+		DF819C31290720DD00C47083 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C2F290720DD00C47083 /* ActivityCell.swift */; };
+		DF819C36290722DE00C47083 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C35290722DE00C47083 /* DetailedView.swift */; };
+		DF819C37290722DE00C47083 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C35290722DE00C47083 /* DetailedView.swift */; };
+		DF819C392907281B00C47083 /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C382907281B00C47083 /* ConnectivityManager.swift */; };
+		DF819C3A2907281B00C47083 /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C382907281B00C47083 /* ConnectivityManager.swift */; };
+		DF819C3C29072AA800C47083 /* +NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C3B29072AA800C47083 /* +NSNotification.swift */; };
+		DF819C3D29072AA800C47083 /* +NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF819C3B29072AA800C47083 /* +NSNotification.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF819C2129071D8E00C47083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF819BF429071BF500C47083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF819C1029071CE700C47083;
+			remoteInfo = "MyActivitiesWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF819C2329071D8E00C47083 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DF819C2029071D8E00C47083 /* MyActivitiesWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DF819BFC29071BF500C47083 /* MyActivies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyActivies.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +60,27 @@
 		DF819C0129071BF500C47083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF819C0329071BF600C47083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF819C0629071BF600C47083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF819C1129071CE700C47083 /* MyActivitiesWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyActivitiesWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF819C1329071CE700C47083 /* MyActivitiesWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivitiesWatchApp.swift; sourceTree = "<group>"; };
+		DF819C1729071CE900C47083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF819C1A29071CE900C47083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF819C2929071EA700C47083 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		DF819C2C29071F6C00C47083 /* ActivitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewModel.swift; sourceTree = "<group>"; };
+		DF819C2F290720DD00C47083 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		DF819C35290722DE00C47083 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		DF819C382907281B00C47083 /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+		DF819C3B29072AA800C47083 /* +NSNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+NSNotification.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DF819BF929071BF500C47083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF819C0E29071CE700C47083 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,8 +93,11 @@
 		DF819BF329071BF500C47083 = {
 			isa = PBXGroup;
 			children = (
+				DF819C2429071E2800C47083 /* Shared */,
 				DF819BFE29071BF500C47083 /* MyActivies */,
+				DF819C1229071CE700C47083 /* MyActivitiesWatch Watch App */,
 				DF819BFD29071BF500C47083 /* Products */,
+				DF819C1F29071D8E00C47083 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				DF819BFC29071BF500C47083 /* MyActivies.app */,
+				DF819C1129071CE700C47083 /* MyActivitiesWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				DF819BFF29071BF500C47083 /* MyActiviesApp.swift */,
-				DF819C0129071BF500C47083 /* ContentView.swift */,
 				DF819C0329071BF600C47083 /* Assets.xcassets */,
 				DF819C0529071BF600C47083 /* Preview Content */,
 			);
@@ -67,6 +128,69 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DF819C1229071CE700C47083 /* MyActivitiesWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DF819C1329071CE700C47083 /* MyActivitiesWatchApp.swift */,
+				DF819C1729071CE900C47083 /* Assets.xcassets */,
+				DF819C1929071CE900C47083 /* Preview Content */,
+			);
+			path = "MyActivitiesWatch Watch App";
+			sourceTree = "<group>";
+		};
+		DF819C1929071CE900C47083 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF819C1A29071CE900C47083 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF819C1F29071D8E00C47083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF819C2429071E2800C47083 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DF819C2829071E7E00C47083 /* Model */,
+				DF819C2729071E7800C47083 /* ViewModel */,
+				DF819C2629071E7200C47083 /* View */,
+				DF819C382907281B00C47083 /* ConnectivityManager.swift */,
+				DF819C3B29072AA800C47083 /* +NSNotification.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DF819C2629071E7200C47083 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF819C0129071BF500C47083 /* ContentView.swift */,
+				DF819C2F290720DD00C47083 /* ActivityCell.swift */,
+				DF819C35290722DE00C47083 /* DetailedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF819C2729071E7800C47083 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF819C2C29071F6C00C47083 /* ActivitiesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF819C2829071E7E00C47083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF819C2929071EA700C47083 /* Activity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,14 +201,33 @@
 				DF819BF829071BF500C47083 /* Sources */,
 				DF819BF929071BF500C47083 /* Frameworks */,
 				DF819BFA29071BF500C47083 /* Resources */,
+				DF819C2329071D8E00C47083 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF819C2229071D8E00C47083 /* PBXTargetDependency */,
+			);
+			name = MyActivies;
+			productName = MyActivies;
+			productReference = DF819BFC29071BF500C47083 /* MyActivies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF819C1029071CE700C47083 /* MyActivitiesWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF819C1C29071CE900C47083 /* Build configuration list for PBXNativeTarget "MyActivitiesWatch Watch App" */;
+			buildPhases = (
+				DF819C0D29071CE700C47083 /* Sources */,
+				DF819C0E29071CE700C47083 /* Frameworks */,
+				DF819C0F29071CE700C47083 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyActivies;
-			productName = MyActivies;
-			productReference = DF819BFC29071BF500C47083 /* MyActivies.app */;
+			name = "MyActivitiesWatch Watch App";
+			productName = "MyActivitiesWatch Watch App";
+			productReference = DF819C1129071CE700C47083 /* MyActivitiesWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +241,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					DF819BFB29071BF500C47083 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DF819C1029071CE700C47083 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
@@ -116,6 +262,7 @@
 			projectRoot = "";
 			targets = (
 				DF819BFB29071BF500C47083 /* MyActivies */,
+				DF819C1029071CE700C47083 /* MyActivitiesWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +277,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF819C0F29071CE700C47083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF819C1B29071CE900C47083 /* Preview Assets.xcassets in Resources */,
+				DF819C1829071CE900C47083 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +293,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF819C2A29071EA700C47083 /* Activity.swift in Sources */,
+				DF819C36290722DE00C47083 /* DetailedView.swift in Sources */,
+				DF819C2D29071F6C00C47083 /* ActivitiesViewModel.swift in Sources */,
+				DF819C3C29072AA800C47083 /* +NSNotification.swift in Sources */,
+				DF819C30290720DD00C47083 /* ActivityCell.swift in Sources */,
 				DF819C0229071BF500C47083 /* ContentView.swift in Sources */,
 				DF819C0029071BF500C47083 /* MyActiviesApp.swift in Sources */,
+				DF819C392907281B00C47083 /* ConnectivityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF819C0D29071CE700C47083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF819C2B29071EA700C47083 /* Activity.swift in Sources */,
+				DF819C37290722DE00C47083 /* DetailedView.swift in Sources */,
+				DF819C2E29071F6C00C47083 /* ActivitiesViewModel.swift in Sources */,
+				DF819C3D29072AA800C47083 /* +NSNotification.swift in Sources */,
+				DF819C31290720DD00C47083 /* ActivityCell.swift in Sources */,
+				DF819C2529071E3600C47083 /* ContentView.swift in Sources */,
+				DF819C1429071CE700C47083 /* MyActivitiesWatchApp.swift in Sources */,
+				DF819C3A2907281B00C47083 /* ConnectivityManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF819C2229071D8E00C47083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF819C1029071CE700C47083 /* MyActivitiesWatch Watch App */;
+			targetProxy = DF819C2129071D8E00C47083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DF819C0829071BF600C47083 /* Debug */ = {
@@ -317,6 +502,66 @@
 			};
 			name = Release;
 		};
+		DF819C1D29071CE900C47083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyActivitiesWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TX88D8XM39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MyActivitiesWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.hummel.luca.MyActivies;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.hummel.luca.MyActivies.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		DF819C1E29071CE900C47083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyActivitiesWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TX88D8XM39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MyActivitiesWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.hummel.luca.MyActivies;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.hummel.luca.MyActivies.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +579,15 @@
 			buildConfigurations = (
 				DF819C0B29071BF600C47083 /* Debug */,
 				DF819C0C29071BF600C47083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF819C1C29071CE900C47083 /* Build configuration list for PBXNativeTarget "MyActivitiesWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF819C1D29071CE900C47083 /* Debug */,
+				DF819C1E29071CE900C47083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
