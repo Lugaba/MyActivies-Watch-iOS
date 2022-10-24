@@ -10,6 +10,11 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var activitiesViewModel = ActivitiesViewModel()
     
+    
+    init() {
+        ConnectivityManager.shared.start()
+    }
+    
     var body: some View {
         NavigationView {
             List {
